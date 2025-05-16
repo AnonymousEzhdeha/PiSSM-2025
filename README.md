@@ -36,14 +36,14 @@ The data for Pong (PolyBox), Lorenz Attractor and NCLT experiments
 are synthetized and generated as explained in details bellow.
 
 For simplicity, we are calling data generation modules in the ``main_script`` so can skip the data generation section.
-Data generation `.py` files for single pendulum, double pendulum and irregular polygon experiments:
+Data generation `.py` files for Poly, Lorenz and NCLT experiments:
 
 >   * project dir
->     * lorenz
+>     * Lorenz
 >       * `LorenzSysModel.py`
->     * nclt state estimation
+>     * NCLT
 >       * `NCLT_data.py`
->     * polybox state estimation
+>     * Poly
 >       * `PolyboxData.py`
 >       * `PymunkData.py`    
 
