@@ -39,13 +39,13 @@ For simplicity, we are calling data generation modules in the ``main_script`` so
 Data generation `.py` files for single pendulum, double pendulum and irregular polygon experiments:
 
 >   * project dir
->     * Lorenz
->       * `lorenz_state_estimation.py`
->     * NCLT
->       * `NCLT_state_estimation.py`
->     * Poly
->       * `polybox_state_estimation.py`
->       
+>     * lorenz
+>       * `LorenzSysModel.py`
+>     * nclt state estimation
+>       * `NCLT_data.py`
+>     * polybox state estimation
+>       * `PolyboxData.py`
+>       * `PymunkData.py`    
 
 
 ### Experiments
