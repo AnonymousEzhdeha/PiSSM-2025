@@ -6,7 +6,7 @@ Submission for Neurips 2025
 
 ![image](./Figs/factor_plot_page-0001.jpg)
 
-## Demo (sequence generation and image imputation)
+## Demo (sequence generation/imputation)
 
 
 <!--  ![Demo](./Figs/gen_sequence_genseq12.gif) -->
