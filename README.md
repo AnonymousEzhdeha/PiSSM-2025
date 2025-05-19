@@ -1,4 +1,4 @@
-# Parameterized Inference SSMs
+# Parameterized Inference State Space Model
 This is a, commented version of the Code used for the experiments described in the paper.
 Submission for Neurips 2025
 
