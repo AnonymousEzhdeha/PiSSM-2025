@@ -3,7 +3,7 @@
     {
         "epochs": 100,
         "batch_size": 10,
-        "Smoothing": 1,
+        "Smoothing": 0,
         "cell": "gin",
         "lod": 10,
         "lsd": 20,
