@@ -145,7 +145,8 @@ class PiSSM(k.models.Model):
         pred_mean, pred_var = pred_mean_var[..., :self._output_dim], pred_mean_var[..., self._output_dim:]
         pred_var += 1e-8
         element_wise_nll = 0.5 * (np.log(2 * np.pi) + tf.math.log(pred_var) + ((target - pred_mean)**2) / pred_var)
-        sample_wise_error = tf.reduce_sum(element_wise_nll, axis=-1)
+        # sample_wise_error = tf.reduce_sum(element_wise_nll, axis=-1)
+        sample_wise_error = tf.reduce_mean(element_wise_nll, axis=-1)
         return tf.reduce_mean(sample_wise_error)
 
     def rmse(self, target, pred_mean_var):
