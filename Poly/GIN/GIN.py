@@ -32,7 +32,7 @@ class GIN(k.models.Model):
         never_invalid: boolean indicating whether all observations are available or a part of it is missing
         cell_type: type of cell to use "gin", "lstm" or "gru" 
         Qnetwork: defines the type of inference for Q matrix. "Xmlp", "Xgru", "Fmlp", "Fgru" and "nothing". 
-            "Xmlp": Q = MLP(X^+)
+            "Xmlp": Q = MLP(X^+
             "Xgru": Q = GRU(X^+)
             "Fmlp": Q = MLP(F)
             "Fgru": Q = GRU(F)

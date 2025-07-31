@@ -12,7 +12,7 @@ class GIN(k.models.Model):
         :param observation_shape: shape of the observation to work with
         :param latent_observation_dim: latent observation dimension (m in paper)
         :param output_dim: dimensionality of model output
-        :param num_basis: number of basis matrices (k in paper)
+        :param num_basis: number of basis matrices (k in paper
         :param trans_net_hidden_units: hidden units for transition network
         :param never_invalid: if you know a-priori that the observation valid flag will always be positive you can set
                               this to true for slightly increased performance (obs_valid mask will be ignored)
